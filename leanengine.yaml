@@ -1,0 +1,4 @@
+runtime: static
+static:
+  publicDir: public
+  buildCmd: yarn run build

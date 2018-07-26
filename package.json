@@ -3,6 +3,9 @@
   "description": "Gatsby default starter",
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "engines": {
+    "node": "8.x"
+  },
   "dependencies": {
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
@@ -20,8 +23,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "node_modules/.bin/gatsby build",
-    "develop": "node_modules/.bin/gatsby develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
